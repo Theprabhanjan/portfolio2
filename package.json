@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://theprabhanjan.github.io/trash",
+  "homepage": "https://theprabhanjan.github.io/trash2",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -55,3 +55,4 @@
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0"
   }
+}
