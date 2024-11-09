@@ -22,11 +22,11 @@ function About() {
       <div className=' text-[5vh] '>
         <Title text1={"About".toUpperCase()} text2={"me".toUpperCase()} />
       </div>
-      <div className='w-full relative   rounded-sm flex sm:flex-row flex-col p-5 gap-5 justify-center items-start backdrop-blur-md  '>
+      <div className='w-full relative   rounded-lg flex sm:flex-row flex-col p-5 gap-5 justify-center items-start backdrop-blur-md  '>
         {/* left side */}
         {/* <div className='absolute bg-teal-700 -z-50 px-16 py-2 rounded-t-md md:left-[20%] -top-5 sm:-top-4 '><p className='font-semibold'>Education</p></div> */}
-        <div className="left flex flex-col gap-16 sm:w-[50%] w-full p-6  border border-slate-50/10 sm:min-h-[50vh] bg-black">
-          <div className='w-full relative shadow-sm hover:shadow-2xl  shadow-slate-200/30 transition-shadow duration-300 ease-in-out  '>
+        <div className="left flex flex-col gap-16 sm:w-[50%] w-full p-6  border border-slate-50/10 sm:min-h-[50vh] rounded-lg ">
+          <div className='w-full rounded-lg relative shadow-sm hover:shadow-2xl  shadow-slate-200/30 transition-shadow duration-300 ease-in-out  '>
             <div className='absolute -top-4 left-4 bg-yellow-500/90 px-2 rounded-md  '>2021-2025</div>
             <div className='p-3 pt-5'>
               <p className='sm:text-xl'>Pursuing bachelor of EC Engineering (2025) batch </p>
@@ -38,8 +38,8 @@ function About() {
             </div>
           </div>
 
-          <div className='w-full relative shadow-sm hover:shadow-2xl  shadow-slate-200/30 transition-shadow duration-300 ease-in-out  '>
-            <div className='absolute -top-4 left-4 bg-green-500 px-2 rounded-md  '>2017-2019</div>
+          <div className='w-full rounded-lg relative shadow-sm hover:shadow-2xl  shadow-slate-200/30 transition-shadow duration-300 ease-in-out  '>
+            <div className='absolute -top-4 left-4 bg-green-500 px-2 rounded-md  '>2019-2021</div>
             <div className='p-3 pt-5'>
               <p className='sm:text-xl'>12th Standard</p>
               <div className='flex flex-row flex-wrap sm:gap-4 justify-between text-[10px] sm:text-sm '>
@@ -50,8 +50,8 @@ function About() {
             </div>
           </div>
 
-          <div className='w-full relative shadow-sm hover:shadow-2xl  shadow-slate-200/30 transition-shadow duration-300 ease-in-out   '>
-            <div className='absolute -top-4 left-4 bg-green-500 px-2 rounded-md  '>2016-2017</div>
+          <div className='w-full rounded-lg relative shadow-sm hover:shadow-2xl  shadow-slate-200/30 transition-shadow duration-300 ease-in-out   '>
+            <div className='absolute -top-4 left-4 bg-green-500 px-2 rounded-md  '>2018-2019</div>
             <div className='p-3 pt-5'>
               <p className='sm:text-xl'>10th Standard</p>
               <div className='flex flex-row flex-wrap sm:gap-4 justify-between text-[10px] sm:text-sm '>
@@ -70,7 +70,7 @@ function About() {
 
         {/* right side */}
 
-        <div className="right   sm:w-[50%] w-full p-4 min-h-[50vh]  border border-slate-50/10   ">
+        <div className="right   sm:w-[50%] w-full p-4 min-h-[50vh]  border border-slate-50/10 rounded-lg   ">
         {/* ACHIEVEMENTS */}
           
           <Box sx={{ width: '100%', typography: 'body1' }}>

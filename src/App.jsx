@@ -41,7 +41,7 @@ useEffect(()=>{loaderAnimation()},[])
 
   return (
  
-    <>
+    < div >
     <Loader/>
     <Navbar/>
     
@@ -61,7 +61,7 @@ useEffect(()=>{loaderAnimation()},[])
     <Footer/>
     </div>
   </div>
-  </>
+  </div>
   )
 }
 
