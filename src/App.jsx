@@ -9,8 +9,8 @@ import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import SkillsAndExperties from './pages/SkillsAndExperties';
 
-// import LocomotiveScroll from 'locomotive-scroll';
-// import 'locomotive-scroll/src/locomotive-scroll.scss';
+import LocomotiveScroll from 'locomotive-scroll';
+import 'locomotive-scroll/src/locomotive-scroll.scss';
 import { useEffect } from 'react';
 import Loader from './components/Loader';
 
@@ -18,16 +18,16 @@ import Loader from './components/Loader';
 
 
 function App() {
-  // useEffect(() => {
-  //   const scroll = new LocomotiveScroll({
-  //     el: document.querySelector('#main'),
-  //     smooth: true,
-  //   });
+  useEffect(() => {
+    const scroll = new LocomotiveScroll({
+      el: document.querySelector('#main'),
+      smooth: true,
+    });
 
-  //   return () => {
-  //     scroll.destroy();
-  //   };
-  // }, []);
+    return () => {
+      scroll.destroy();
+    };
+  }, []);
 
  const loaderAnimation=()=> {
     var loader = document.querySelector("#loader");
@@ -42,7 +42,7 @@ useEffect(()=>{loaderAnimation()},[])
   return (
  
     < div >
-    {/* <Loader/> */}
+    <Loader/>
     <Navbar/>
     
     <div className='  px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw] mt-5 min-h-[100vh] flex-1  ' id='main' >
