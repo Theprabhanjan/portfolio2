@@ -1,8 +1,22 @@
 import React from 'react'
 import Title from '../components/Title'
 import Accord from '../components/Accord'
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 function Project() {
+  const [text] = useTypewriter({
+    words: [
+      'Repairs almost every things',
+      'Paper-pen is my first preferance',
+      "I'm a creative problem solver",
+      
+    ],
+    loop: 0, // Set to 0 to loop indefinitely
+    delay: 2000, // Delay before typing the next word
+    typeSpeed: 100, // Speed of typing
+    deleteSpeed: 100, // Speed of backspacing
+  });
+
   return (
     <div className='min-h-[80vh] animate-slideUp ' >
       {/* Top heading */}
@@ -47,7 +61,12 @@ function Project() {
             {/* </div> */}
           </div>
         </div>
+       
       </div>
+      <div className='w-full h-20 mt-4'>
+              <span className='text-2xl  font-extrabold handWritten-font text-yellow-300'>{text}</span>
+              <Cursor />
+            </div>
     </div>
   )
 }
