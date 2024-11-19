@@ -43,7 +43,7 @@ function About() {
             <div className='p-3 pt-5'>
               <p className='sm:text-xl'>12th Standard</p>
               <div className='flex flex-row flex-wrap sm:gap-4 justify-between text-[10px] sm:text-sm '>
-                <li><span className='text-slate-300/40 hover:text-white transition ease-in duration-150'>Aggregate percentage</span> <span>97.57%</span></li>
+                <li><span className='text-slate-300/40 hover:text-white transition ease-in duration-150'>Aggregate percentage</span> <span>93.57%</span></li>
                 <li><span className='text-slate-300/40 hover:text-white transition ease-in duration-150'>Board</span> <span>MSBSHSE </span></li>
                 <li><span className='text-slate-300/40 hover:text-white transition ease-in duration-150'>Year of passout:</span> <span>2019</span></li>
               </div>
