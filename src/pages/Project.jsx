@@ -9,7 +9,7 @@ function Project() {
       'Repairs almost every things',
       'Paper-pen is my first preferance',
       "I'm a creative problem solver",
-      
+
     ],
     loop: 0, // Set to 0 to loop indefinitely
     delay: 2000, // Delay before typing the next word
@@ -22,6 +22,10 @@ function Project() {
       {/* Top heading */}
       <div className='text-[5vh]  '>
         <Title text1={"projects".toUpperCase()} />
+      </div>
+      <div className='w-full h-20 mt-4'>
+        <span className='text-2xl  font-extrabold handWritten-font text-yellow-300'>{text}</span>
+        <Cursor />
       </div>
 
       <div className='flex flex-col gap-5 sm:flex-row min-h-[40vh] justify-between     '>
@@ -54,19 +58,16 @@ function Project() {
         <div className='flex flex-col  rounded-2xl gap-5 backdrop-blur-md   shadow-slate-50/30 shadow-sm overflow-hidden '>
           <p className='shadow-slate-50/20 bg-slate-500/20 shadow border-inherit p-3 pl-7 text-purple-700/50 font-bold ' >Core Projects</p>
           <div className='p-5 pt-1  pb-40 gap-20 sm:min-h-[40vh] items-center flex flex-col '>
-            <Accord title={'Design & development of ebike'} link={'https://github.com/Theprabhanjan/designofebike'} description={'Completely refabricated from recyclable parts sourced from scrap Electronic innovation: Designed an e-bike with an entirely new battery pack, incorporating small changes in the Battery Management System (BMS).' } />
+            <Accord title={'Design & development of ebike'} link={'https://github.com/Theprabhanjan/designofebike'} description={'Completely refabricated from recyclable parts sourced from scrap Electronic innovation: Designed an e-bike with an entirely new battery pack, incorporating small changes in the Battery Management System (BMS).'} />
             <a className='text-blue-500 hover:text-blue-700 transition ease-in duration-150' target='_blank' href="https://youtu.be/fP_TveaLIKM">Watch video</a>
             {/* <div> */}
             <iframe src="https://www.youtube.com/embed/6ZVvHHc5vvw?si=HevOu04yCZH5ukJW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             {/* </div> */}
           </div>
         </div>
-       
+
       </div>
-      <div className='w-full h-20 mt-4'>
-              <span className='text-2xl  font-extrabold handWritten-font text-yellow-300'>{text}</span>
-              <Cursor />
-            </div>
+
     </div>
   )
 }
