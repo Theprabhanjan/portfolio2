@@ -29,10 +29,10 @@ function About() {
           <div className='w-full rounded-lg relative shadow-sm hover:shadow-2xl  shadow-slate-200/30 transition-shadow duration-300 ease-in-out  '>
             <div className='absolute -top-4 left-4 bg-yellow-500/90 px-2 rounded-md  '>2021-2025</div>
             <div className='p-3 pt-5'>
-              <p className='sm:text-xl'>Pursuing bachelor of EC Engineering (2025) batch </p>
+              <p className='sm:text-xl'>Pursuing bachelor of EC Engineering  </p>
               <div className='flex flex-row flex-wrap justify-between text-[10px] sm:text-sm'>
                 <li><span className='text-slate-300/40 hover:text-white transition ease-in duration-150'>Current Aggrigate:</span> <span>7.71</span></li>
-                <li><span className='text-slate-300/40 hover:text-white transition ease-in duration-150'>University/location:</span> <span>SPPU,Pune</span></li>
+                <li><span className='text-slate-300/40 hover:text-white transition ease-in duration-150'>University</span> <span>SPPU,Pune</span></li>
                 <li><span className='text-slate-300/40 hover:text-white transition ease-in duration-150'>Year of passout:</span> <span>2025</span></li>
               </div>
             </div>
@@ -44,7 +44,7 @@ function About() {
               <p className='sm:text-xl'>12th Standard</p>
               <div className='flex flex-row flex-wrap sm:gap-4 justify-between text-[10px] sm:text-sm '>
                 <li><span className='text-slate-300/40 hover:text-white transition ease-in duration-150'>Aggregate percentage</span> <span>97.57%</span></li>
-                <li><span className='text-slate-300/40 hover:text-white transition ease-in duration-150'>Board/location:</span> <span>MSBSHSE (Pandharpur)</span></li>
+                <li><span className='text-slate-300/40 hover:text-white transition ease-in duration-150'>Board</span> <span>MSBSHSE </span></li>
                 <li><span className='text-slate-300/40 hover:text-white transition ease-in duration-150'>Year of passout:</span> <span>2019</span></li>
               </div>
             </div>
@@ -56,7 +56,7 @@ function About() {
               <p className='sm:text-xl'>10th Standard</p>
               <div className='flex flex-row flex-wrap sm:gap-4 justify-between text-[10px] sm:text-sm '>
                 <li><span className='text-slate-300/40 hover:text-white transition ease-in duration-150'>Aggregate percentage</span> <span>89.80%</span></li>
-                <li><span className='text-slate-300/40 hover:text-white transition ease-in duration-150'>Board/location:</span> <span>MSBSHSE (Madha)</span></li>
+                <li><span className='text-slate-300/40 hover:text-white transition ease-in duration-150'>Board</span> <span>MSBSHSE </span></li>
                 <li><span className='text-slate-300/40 hover:text-white transition ease-in duration-150'>Year of passout:</span> <span>2019</span></li>
               </div>
             </div>
