@@ -7,7 +7,7 @@ const Contact = () => {
     const whatsappLink = `https://wa.me/+91${phoneNumber}`;
 
     return (
-        <div className="min-h-screen  text-cyan-400 flex flex-col items-center  p-8">
+        <div className="min-h-screen  text-cyan-400 flex flex-col items-center  p-8 animate-slideUp">
             {/* Page Title */}
             <div className='text-[5vh]'>
 

@@ -17,13 +17,14 @@ function Hero() {
   });
 
   return (
-    <div className='min-h-[100vh] flex flex-col  items-center  text-white pt-10 mt-5'>
+    <div className='min-h-[100vh] flex flex-col  items-center  text-white pt-10 mt-5 animate-slideUp'>
       <div className='flex flex-col items-start sm:p-3  my-4 shadow-sm shadow-cyan-500/20 rounded-lg bg-[#121212] pt-3'>
         <h1 className='text-3xl font-semibold mb-4 pl-3 sm:pl-0'>Prabhanjan Satish Dhobale</h1>
         <div className='flex flex-col-reverse md:flex-row p-3 md:p-0'>
           <div>
             <p className='text-slate-50/70 my-4'>
-              I’m Prabhanjan Satish Dhobale, a dedicated Electronics and Telecommunication Engineering student from the class of 2025 and the <span className='text-yellow-500'>{"Chairman".toUpperCase()}</span> of the IETE Student Forum (ISF) at SKNCOE, Pune. With a passion for both software and hardware, I've navigated the complexities of the MERN stack and mastered React Native through Expo. My journey is fueled by curiosity and a drive to push the boundaries of what's possible.
+            Innovative and results-driven Electronics and Telecommunication Engineer (Batch 2025) with expertise in core electronics and full-stack development. Proficient in
+             designing and implementing hardware and software solutions, including advanced system design and cross-platform applications. Experienced in leading and collaborating on diverse projects, such as self-balancing e-bikes, faculty feedback systems, and full-stack web applications. Passionate about leveraging interdisciplinary knowledge to drive innovation and solve complex engineering challenges. GATE 2024 qualified and an active leader as Chairman of the IETE Student Forum.
             </p>
             <div className='w-full h-20'>
               <span className='font-bold text-2xl text-cyan-500/40'>{text}</span>
@@ -40,7 +41,7 @@ function Hero() {
               </div>
             </div>
           </div>
-          <img src={assets.my_pic} className='w-full sm:w-[350px] rounded-lg shadow-md' alt="Prabhanjan Satish Dhobale" />
+          <img src={assets.my_pic} className=' animate-bounceCustom w-full sm:w-[350px] rounded-lg shadow-md' alt="Prabhanjan Satish Dhobale" />
         </div>
       </div>
     </div>

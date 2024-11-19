@@ -19,10 +19,10 @@ function About() {
   return (
     < >
 
-      <div className=' text-[5vh] '>
+      <div className=' text-[5vh] animate-slideUp '>
         <Title text1={"About".toUpperCase()} text2={"me".toUpperCase()} />
       </div>
-      <div className='w-full relative   rounded-lg flex sm:flex-row flex-col p-5 gap-5 justify-center items-start backdrop-blur-md  '>
+      <div className='w-full relative animate-slideUp  rounded-lg flex sm:flex-row flex-col p-5 gap-5 justify-center items-start backdrop-blur-md  '>
         {/* left side */}
         {/* <div className='absolute bg-teal-700 -z-50 px-16 py-2 rounded-t-md md:left-[20%] -top-5 sm:-top-4 '><p className='font-semibold'>Education</p></div> */}
         <div className="left flex flex-col gap-16 sm:w-[50%] w-full p-6  border border-slate-50/10 sm:min-h-[50vh] rounded-lg ">

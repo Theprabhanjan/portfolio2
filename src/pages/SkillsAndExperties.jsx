@@ -5,7 +5,7 @@ import Title from '../components/Title';
 
 const SkillsAndExpertise = () => {
   return (
-    <div className="flex flex-col items-center min-h-screen  p-8">
+    <div className="flex flex-col items-center min-h-screen  p-8 animate-slideUp">
       <div className='text-[5vh]'>
         <Title text1={"Skills & Expertise".toUpperCase()} />
       </div>
