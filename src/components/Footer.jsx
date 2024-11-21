@@ -31,8 +31,8 @@ function Footer() {
                     <p className='text-xl font-medium mb-5 '>GET IN TOUCH</p>
                     <ul className='flex flex-col gap-1 text-gray-800'>
                         <a href='tel:+91-9404606271' className='text-gray-400/80'>+91-9404606271</a>
-                        <a href='mailto:prabhanjandhobale.skn.entc@gmail.com' className='text-gray-400/80'>prabhanjandhobale.skn.entc@gmail.com</a>
-                        <a href='mailto:prabhanjandhobale@outlook.com'><p className='text-gray-400/80'>prabhanjandhobale@outlook.com (personal)</p> </a>
+                        <a href='mailto:prabhanjandhobale.skn.entc@gmail.com' className='text-gray-400/80'>prabhanjandhobale18@gmail.com</a>
+                        <a href='mailto:prabhanjandhobale@outlook.com'><a className='text-gray-400/80'>prabhanjandhobale@outlook.com (personal)</a> </a>
 
                     </ul>
                 </div>
