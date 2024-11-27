@@ -18,7 +18,7 @@ function Hero() {
 
   return (
     <div className='min-h-[100vh] flex flex-col  items-center  text-white pt-10 mt-5 animate-slideUp'>
-      <div className='flex flex-col items-start sm:p-3  my-4 shadow-sm shadow-cyan-500/20 rounded-lg bg-[#121212] pt-3'>
+      <div className='flex flex-col items-start sm:p-3  my-4 shadow-lg  rounded-lg shadow-black/30 pt-3'>
         <h1 className='text-3xl font-semibold mb-4 pl-3 sm:pl-0'>Prabhanjan Satish Dhobale</h1>
         <h3 className='mb-4 pl-3 sm:pl-0'><b>Chairman</b>, IETE Student Forum, SKNCOE</h3>
         <div className='flex flex-col-reverse md:flex-row p-3 md:p-0 justify-between items-center'>

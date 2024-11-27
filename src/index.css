@@ -5,7 +5,11 @@
 @tailwind utilities;
 
 body {
-  background: #121212;
+  /* background: #121212;
+   */
+   /* background: rgb(1, 21, 21); */
+   /* background: rgb(1, 19, 22); */
+   background:#001316;
 }
 html {
   scroll-behavior: smooth;
