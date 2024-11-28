@@ -3,7 +3,7 @@ import { assets } from '../assets/assets'
 
 function Footer() {
     return (
-        <div >
+        <div role='footer' >
 
             <div className='flex flex-col  sm:grid  grid-cols-[3fr_1fr_1fr] gap-14  my-10  text-sm border-t-[0.1px]  py-2 border-cyan-200/20 '>
                 <div>

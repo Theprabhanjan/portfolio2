@@ -2,7 +2,7 @@ import React from 'react';
 
 const AchievementCard = ({ title, description, date }) => {
     return (
-        <div className=" w-full  shadow-slate-50/10 shadow-sm  rounded-lg p-4 mt-2  transition-shadow duration-300 ease-in-out transform ">
+        <div role='achievements' className=" w-full  shadow-slate-50/10 shadow-sm  rounded-lg p-4 mt-2  transition-shadow duration-300 ease-in-out transform ">
             <div className="flex items-center mb-4">
                 {/* Icon */}
              

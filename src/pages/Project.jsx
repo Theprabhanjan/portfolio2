@@ -18,7 +18,7 @@ function Project() {
   });
 
   return (
-    <div className='min-h-[80vh] animate-slideUp ' >
+    <div role='Projects' className='min-h-[80vh] animate-slideUp ' >
       {/* Top heading */}
       <div className='text-[5vh]  '>
         <Title text1={"projects".toUpperCase()} />

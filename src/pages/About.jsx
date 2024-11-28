@@ -19,7 +19,7 @@ function About() {
   return (
     < >
 
-      <div className=' text-[5vh] animate-slideUp '>
+      <div role='About Me' className=' text-[5vh] animate-slideUp '>
         <Title text1={"About".toUpperCase()} text2={"me".toUpperCase()} />
       </div>
       <div className='w-full relative animate-slideUp  rounded-lg flex sm:flex-row flex-col p-5 gap-5 justify-center items-start backdrop-blur-md  '>
